@@ -1,0 +1,36 @@
+{
+  "config": {
+    "seed": 42,
+    "gravity": 9.81,
+    "dt": 0.05,
+    "steps": 200,
+    "expert_episodes": 36,
+    "horizon": 16,
+    "de_iterations": 10,
+    "de_popsize": 5,
+    "evaluation_per_scenario": 20,
+    "bootstrap_replicates": 2000
+  },
+  "selected_model": "MLP 64x64",
+  "mlp_iterations": 250,
+  "mlp_iteration_limit": 250,
+  "split_episodes": {
+    "test": 7,
+    "train": 22,
+    "validation": 7
+  },
+  "rows": 7200,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.5.4",
+    "pandas": "3.1.0",
+    "scipy": "1.18.1",
+    "scikit_learn": "1.9.1",
+    "gymnasium": "1.4.0"
+  },
+  "notes": [
+    "Single training seed; confidence intervals describe evaluation initial states only.",
+    "Near-upright training is not general swing-up training.",
+    "Latency is machine-dependent; no real-time guarantee."
+  ]
+}

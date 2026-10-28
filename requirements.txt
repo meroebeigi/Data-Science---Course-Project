@@ -1,0 +1,9 @@
+# Validated analysis environment: Python 3.12
+numpy==2.5.4
+pandas==3.1.0
+scipy==1.18.1
+scikit-learn==1.9.1
+gymnasium==1.4.0
+matplotlib==3.11.2
+nbformat==5.11.1
+ipython==9.17.1
